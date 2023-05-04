@@ -380,6 +380,15 @@ body{
 
 }
 /* *******************************responsivede registration********************************************** */
+@media screen  and (max-width: 1920px){
+    .registration-container {
+        margin-top: -376px;
+        top: 0px;
+        left: 0px;
+        height: 89vh;
+        border-radius: 0px;
+    }
+}
 
 @media screen  and (max-width: 900px){
     .registration-container .group-container .group img{
