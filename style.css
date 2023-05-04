@@ -5,10 +5,9 @@ body{
     background: #BDA3EFFF;
 }
 .registration-container {
-    margin-top: -382px;
+    margin-top: -383px;
     top: 0px;
     left: 0px;
-    height: 564px;
     border-radius: 0px;
 }
 
@@ -68,7 +67,10 @@ body{
     src: url("font-family/inter/static/Inter-SemiBold.ttf");
 }
 /*************************************/
-
+#registration {
+    height: 100vh;
+    background: #BDA3EFFF;
+}
 .container-contact h1{
     margin-top: 24px;
     font-family: sans-serif;
@@ -380,13 +382,20 @@ body{
 
 }
 /* *******************************responsivede registration********************************************** */
-@media screen  and (max-width: 1920px){
+@media screen  and (min-width: 1920px){
     .registration-container {
-        margin-top: -376px;
-        top: 0px;
-        left: 0px;
-        height: 89vh;
-        border-radius: 0px;
+        top: 0;
+        left: 0;
+        border-radius: 0;
+    }
+    .container-contact {
+        position: relative;
+        margin-top: -25px;
+        width: 38%;
+        height: 746px;
+        background: #FFFFFFFF;
+        border-radius: 10px;
+        padding: 30px;
     }
 }
 
@@ -1276,7 +1285,7 @@ td, th {
     .d-flex-B .table-stat{
        width: 57% !important;
     }
-    
+
     .d-flex-B .table-stat table th {
         padding: 20px 5px;
     }
@@ -1484,7 +1493,7 @@ td, th {
     line-height: 22px;
 }
 .button .button-1:hover{
-    color: #565E6CFF; 
+    color: #565E6CFF;
     background: #DEE1E6FF;
 }
 .button .button-2{
