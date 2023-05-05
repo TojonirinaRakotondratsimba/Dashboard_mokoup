@@ -46,6 +46,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/font-family" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -116,7 +117,8 @@
       <workItem from="1683197839988" duration="587000" />
       <workItem from="1683203910855" duration="3071000" />
       <workItem from="1683223750587" duration="956000" />
-      <workItem from="1683282151853" duration="9616000" />
+      <workItem from="1683282151853" duration="9963000" />
+      <workItem from="1683310464374" duration="5597000" />
     </task>
     <servers />
   </component>

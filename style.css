@@ -2232,6 +2232,146 @@ td, th {
     justify-content: flex-end;
 }
 /****************************responsive de calendar***********************************/
+@media screen and (min-width: 1920px){
+    .sidebar-images .text h4 {
+        font-size: 20px;
+    }
+    .w3-sidebar .text p {
+        font-size: 18px;
+    }
+    .container-section-1 .container-header h1 {
+        font-size: 30px;
+    }
+    .container-section-1 .container-header button {
+        font-size: 20px;
+        height: 50px;
+        padding: 0 1rem;
+    }
+    .container-body .dec-2022 h2 {
+        font-size: 22px;
+    }
+    .icon-button button {
+        font-size: 15px;
+        width: 95px;
+        height: 45px;
+    }
+    .day-dropdown select {
+        font-size: 15px;
+        width: 95px;
+        height: 45px;
+        padding: 0 0.5rem;
+    }
+    .day-dropdown .image img {
+        width: 45px;
+    }
+    .icon-button img {
+        width: 32px;
+        height: 32px;
+    }
+    .partie-B .dec--2022 img {
+        width: 28px;
+        height: 28px;
+    }
+    .partie-B .dec--2022 h2 {
+        font-size: 22px;
+    }
+    .calendrier .jours .days {
+        font-size: 20px;
+    }
+    .calendar .day .day_content .text-day {
+        font-size: 20px;
+    }
+    .calendrier button {
+        font-size: 18px;
+    }
+    .calendar button {
+        font-size: 18px;
+        width: 45px;
+        height: 45px;
+    }
+    .calendar .btn1 {
+        width: 45px;
+        height: 45px;
+        font-size: 18px;
+        border-radius: 24px;
+    }
+    .calendar .btn2 {
+        width: 45px;
+        height: 45px;
+        font-size: 18px;
+        border-radius: 24px;
+    }
+    .part .partie-D {
+        margin-top: 0;
+    }
+    .partie-A {
+        width: 70%;
+        height: 25vh;
+    }
+    .partie-B {
+        width: 30%;
+        height: 345px;
+    }
+    .container-section-2 .partie-C {
+        width: 70%;
+        margin-top: -120px;
+    }
+    .container-section-2 .partie-C .heure-line .heure {
+        font-size: 16px;
+    }
+    .container-section-2 .partie-C .heure-line .heure-bleu {
+        font-size: 16px;
+    }
+    .container-section-2 .event-title h3 {
+        font-size: 20px;
+    }
+    .container-section-2 .event-title .d-flex2 p {
+        font-size: 16px;
+    }
+    .container-section-2 .event-title .d-flex2 img {
+        width: 20px;
+        height: 20px;
+    }
+    .image-texte .text h4 {
+        font-size: 18px;
+    }
+    .image-texte .text p {
+        font-size: 16px;
+    }
+    .image-texte img {
+        width: 55px;
+    }
+    .container-section-2 .d-flex-img-points img {
+        width: 42px;
+        height: 42px;
+    }
+    .container-section-2 .d-flex-img-points .images .avatar {
+        width: 42px;
+        height: 42px;
+        margin-left: -20px;
+    }
+    .container-section-2 .d-flex-img-points {
+        gap: 0 50px;
+    }
+    .container-section-2 .event-title {
+        height: 90px;
+    }
+    .container-section-2 .images {
+        width: 144px;
+        height: 45px;
+    }
+    .container-section-2 .d-flex-img-points .points img {
+        width: 35px;
+        height: 35px;
+    }
+    .container-section-2 .big-container .points img {
+        width: 35px;
+        height: 35px;
+    }
+    .container-section-2 .big-container .nav h2 {
+        font-size: 20px;
+    }
+}
 @media screen and (max-width: 1116px){
     .container-section-1 .partie {
         display: flex;
