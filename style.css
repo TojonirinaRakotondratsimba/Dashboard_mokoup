@@ -1252,6 +1252,110 @@ td, th {
 }
 
 /********************************responsive**************************************/
+@media screen  and (min-width: 1920px){
+    body {
+        font-size: 16px;
+    }
+    .corps .d-flex-A .d-block{
+        width: 100%;
+    }
+    .corps .container {
+        padding: 35px 15px;
+    }
+    .sidebar-head .text a {
+        font-size: 20px;
+    }
+    .w3-sidebar .text p {
+        font-size: 16px;
+    }
+    .sidebar-head img {
+        width: 65px;
+        height: 65px;
+    }
+    .sidebar-menu .liste {
+        margin-bottom: 15px;
+    }
+
+    .w3-bar-block .w3-bar-item {
+        font-size: 20px;
+    }
+    .sidebar-images img {
+        width: 60px;
+    }
+    .sidebar-images .text h4 {
+        font-size: 18px;
+    }
+    .sidebar-images {
+        margin-top: 470px;
+        width: 100%;
+    }
+    .corps .container h1 {
+        font-size: 30px;
+    }
+    .d-flex-A  .column-container-1 {
+        height: 170px;
+        padding: 30px;
+    }
+    .d-flex-A  .column-container-2 {
+        height: 170px;
+        padding: 30px;
+    }
+    .d-flex-A  .column-container-3 {
+        height: 170px;
+        padding: 30px;
+    }
+    .corps .container .button .button-1 {
+        width: 225px;
+        height: 70px;
+        font-size: 18px;
+
+    }
+    .corps .container .button .button-2 {
+        width: 120px;
+        height: 70px;
+        font-size: 18px;
+    }
+    .d-flex-A .d-block-1 {
+        width: 40%;
+    }
+    .stat-selected-column-bar .stat {
+        font-size: 20px;
+    }
+    .d-flex-A .big-container .nav h2 {
+        font-size: 20px;
+    }
+    .d-flex-A .image-texte {
+        height: 100px;
+    }
+    .d-flex-A .image-texte img {
+        width: 60px;
+    }
+    .d-flex-A .image-texte .text h4 {
+        font-size: 17px;
+    }
+    .d-flex-A .image-texte .text p {
+        font-size: 14px;
+    }
+    .d-flex-B .table-stat h2 {
+        font-size: 20px;
+    }
+    .d-flex-B .statistics .text-stats h3 {
+        font-size: 20px;
+    }
+    .d-flex-B .table-stat table th {
+        font-size: 18px;
+    }
+    .d-flex-B .table-stat table .titre-left {
+        font-size: 17px;
+    }
+    .d-flex-B .table-stat table td {
+        font-size: 17px;
+    }
+    .d-flex-B table img {
+        width: 24px;
+        height: 24px;
+    }
+}
 @media screen and (max-width: 1116px){
     .sidebar-head .text a {
         font-size: 13px;
