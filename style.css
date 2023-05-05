@@ -1,14 +1,17 @@
 body{
     margin: 0;
 }
+ * {
+    margin: 0;
+}
 #registration{
     background: #BDA3EFFF;
 }
 .registration-container {
     margin-top: -383px;
-    top: 0px;
-    left: 0px;
-    border-radius: 0px;
+    top: 0;
+    left: 0;
+    border-radius: 0;
 }
 
 .images {
@@ -388,14 +391,68 @@ body{
         left: 0;
         border-radius: 0;
     }
+    .registration-container .images img{
+        width: 240px;
+    }
     .container-contact {
         position: relative;
-        margin-top: -25px;
+        margin-top: -160px;
         width: 38%;
         height: 746px;
         background: #FFFFFFFF;
         border-radius: 10px;
         padding: 30px;
+    }
+    .group {
+        position: relative;
+        margin-top: -43px;
+        width: 40%;
+        height: 75vh;
+    }
+    .group img {
+        height: auto;
+        width: 100%;
+    }
+    .theme {
+        width: 700px;
+        height: 700px;
+    }
+
+    .text-box-input input {
+        height: 75px;
+    }
+    .button2 button {
+        height: 75px;
+        font-size: 24px;
+    }
+    .text-box-input label {
+        font-size: 22px;
+    }
+    .text-box-input {
+        margin-top: 30px;
+    }
+    .text-box-input input {
+        font-size: 20px;
+    }
+    .container-contact h1 {
+        margin-top: 24px;
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+    .button2 .texte-lien {
+        font-size: 24px;
+    }
+    .button2 .texte {
+        margin-top: 24px;
+        font-size: 20px;
+    }
+    .container-contact p {
+        font-size: 18px;
+    }
+    .button button {
+        width: 125px;
+        height: 45px;
+        border-radius: 30px;
     }
 }
 
@@ -547,7 +604,7 @@ body{
 
     .registration-container .images img{
         width: 115px;
-       margin-top: -30px;
+        margin-top: -30px;
     }
 }
 @media screen  and (max-width: 350px){
@@ -622,7 +679,7 @@ body{
     font-size: 16px;
     line-height: 28px;
     color: #171A1FFF;
-    margin: 0px;
+
 }
 
 .sidebar-head img{
@@ -683,15 +740,15 @@ body{
 }
 .sidebar-menu .dashboard_active a{
     color: white;
-    margin-left: 0px;
+    margin-left: 0;
 }
 .sidebar-menu .calendar_active a{
     color: white;
-    margin-left: 0px;
+    margin-left: 0;
 }
 .sidebar-menu .integration_active a{
     color: white;
-    margin-left: 0px;
+    margin-left: 0;
 }
 .sidebar-menu .liste:hover{
     background-color: #00bdd6;
@@ -1008,7 +1065,7 @@ button{
     font-size: 15px;
     line-height: 26px;
     color: #171A1FFF;
-    margin: 0px;
+    margin: 0;
 }
 .image-texte .text p {
     font-family: 'Inter';
@@ -1062,7 +1119,7 @@ button{
     font-size: 18px;
     line-height: 28px;
     color: #171A1FFF;
-    margin: 0px;
+
 }
 .d-flex-A .column img{
     width: 14px;
@@ -1157,12 +1214,13 @@ td, th {
 .statistics .stats_bock{
     padding: 20px;
 }
+
 .statistics img{
     margin-top: 30px;
     width: 250px;
 }
 .text-stats h3{
-   margin: 0px;
+    margin: 0;
     font-family: 'Epilogue';
     font-size: 18px;
     line-height: 28px;
@@ -1209,7 +1267,7 @@ td, th {
     }
     .sidebar-images .text h4 {
         font-size: 13px;
-        line-height: 0px;
+        line-height: 0;
     }
     .sidebar-images {
        display: none;
@@ -1290,7 +1348,7 @@ td, th {
         padding: 20px 5px;
     }
     .d-flex-B .table-stat table td {
-        padding: 20px 0px;
+        padding: 20px 0;
     }
     .statistics {
         width: 40%;
@@ -1314,10 +1372,14 @@ td, th {
         font-size: 23px;
     }
     .corps {
-        margin-left: 0% !important;
+        margin-left: 0 !important;
     }
     .w3-sidebar{
         display:none;
+    }
+    .tabbar_menu{
+        display: block;
+        border-top: 1px  #DEE1E6FF solid;
     }
 }
 @media screen and (max-width: 920px){
@@ -1358,11 +1420,6 @@ td, th {
 }
 @media screen and (max-width: 756px){
 
-
-    .tabbar_menu{
-        display: block;
-        border-top: 1px  #DEE1E6FF solid;
-    }
     .d-flex-B .table-stat .table_2{
         display: block;
     }
@@ -1577,7 +1634,7 @@ td, th {
     color: #171A1FFF;
     background: #F3F4F6FF;
     border-radius: 4px;
-    border-width: 0px;
+    border-width: 0;
     outline: none;
     align-items: center;
 }
@@ -1602,7 +1659,6 @@ td, th {
 }
 .day-dropdown .images{
     position: relative;
-
     left: 49px;
     width: 173px;
     height: 54px;
@@ -1840,7 +1896,7 @@ td, th {
     margin-top: 93px;
 }
 .container-section-2 .top-0{
-    margin-top: 0px;
+    margin-top: 0;
 }
 .container-section-2 .partie-C .heure-line .heure{
     font-family: 'Inter';
@@ -1882,7 +1938,7 @@ td, th {
     font-size: 14px;
     line-height: 22px;
     color: #171A1FFF;
-    margin: 0px;
+
 }
 .container-section-2 .event-title .d-flex{
     display: flex;
@@ -1902,7 +1958,6 @@ td, th {
     font-size: 12px;
     line-height: 20px;
     color: #6E7787FF;
-    margin: 0px;
 }
 .container-section-2 .event-title .d-flex2 .d-flex3{
     display: flex;
@@ -2185,7 +2240,7 @@ td, th {
     }
     .container-section-2 .partie_resp .part_3 {
         width: 100%;
-        margin-left: 0px;
+        margin-left: 0;
     }
     .container-section-2 .partie_resp .part_4 {
         margin-left: 50px;
@@ -2194,7 +2249,7 @@ td, th {
        display: none;
     }
     .container-section-2 .partie_resp .pariatur{
-        padding: 0px;
+        padding: 0;
     }
     .container-section-2 .partie_resp img {
         margin-left: 10px;
@@ -2218,7 +2273,7 @@ td, th {
         margin-left: 30px;
     }
     .container-section-2 .partie_resp .part_5 {
-        margin-left: 0px;
+        margin-left: 0;
     }
 }
 /***************************************************setting************************************************************/
@@ -2252,7 +2307,7 @@ td, th {
 /*****************text-button*************/
 
 .text-button{
-    /*margin-left: 20px;*/
+
     margin-top: 60px;
     display: flex;
     flex-direction: column;
@@ -2437,7 +2492,7 @@ td, th {
     margin-top: 10px;
     margin-left: 20px;
 }
-.titre-para h5{
+.titre-para h5 {
     font-family: 'Inter';
     font-size: 14px;
     line-height: 20px;
