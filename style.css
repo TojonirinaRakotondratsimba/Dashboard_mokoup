@@ -276,9 +276,9 @@ body{
     background-color:#ffffff;
 }
 .tabbar_menu ul{
-    padding-left: 0;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
 }
 .tabbar_menu li{
   list-style: none;
@@ -1201,7 +1201,7 @@ td, th {
         padding: 35px 15px;
     }
     .sidebar-head .text a {
-        font-size: 20px;
+        font-size: 20px!important;
     }
     .w3-sidebar .text p {
         font-size: 16px;
@@ -1309,11 +1309,11 @@ td, th {
         font-size: 11px;
     }
     .sidebar-head .text a {
-        font-size: 14px;
+        font-size: 14px!important;
     }
-    
+
     .sidebar-menu .liste a {
-        font-size: 14px;
+        font-size: 13px!important;
     }
 
     .sidebar-images .text h4 {
@@ -2796,7 +2796,109 @@ td, th {
     padding: 5px;
 }
 /********************************responsive de setting*******************************/
+@media screen  and (max-width: 1920px){
+    .texto-img-button {
+        padding: 45px;
+    }
+    p {
+        margin: 0!important;
+    }
+    .lien-https {
+        padding: 45px!important;
+    }
+    .text-images .titre {
+        font-size: 30px;
+    }
+    .text-images p {
+        font-size: 16px;
+    }
+    .text .petit-titre {
+        font-size: 20px;
+    }
+    .texto .petit-titre {
+        font-size: 20px;
+    }
+    .texto p {
+        font-size: 16px;
+    }
+    .images-button img {
+        margin-top: 20px;
+        width: 350px;
+        height: 230px;
+    }
+    .container-images-text-button img {
+        width: 230px;
+        height: 120px;
+    }
+    .texto h2 {
+        font-size: 35px;
+    }
+    .text-button .button-A .btn1 {
+        width: 100px;
+        height: 45px;
+        font-size: 16px;
+    }
+    .container-images-text-button {
+        height: 315px;
+    }
+    .text-button .button-A .btn2 {
+        width: 100px;
+        height: 45px;
+        font-size: 16px;
+    }
+    .button-B .btn1 {
+        width: 100px;
+        height: 45px;
+        font-size: 16px;
+    }
+    .button-B .btn2 {
+        width: 100px;
+        height: 45px;
+        font-size: 16px;
+    }
+    .lien-https img {
+        width: 55px!important;
+    }
+    .titre-para h5 {
+        font-size: 20px!important;
+        line-height: 10px!important;
+    }
+    .titre-para p {
+        font-size: 16px!important;
+        line-height: 30px!important;
+    }
+    .text-right p {
+        font-size: 16px!important;
+    }
+    .text-right {
+        gap: 20px;
+    }
+}
+@media screen  and (max-width: 1367px) {
 
+}
+@media screen and (max-width: 1116px) {
+
+}
+@media screen and (max-width: 992px){
+
+}
+@media screen and (max-width: 700px){
+
+}
+@media screen and (max-width: 630px){
+
+}
+@media screen and (max-width: 460px){
+
+}
+@media screen and (max-width: 416px){
+
+}
+@media screen and (max-width: 371px) {
+
+
+}
 /************************lien-logo***************************/
 .lien-https{
     padding: 20px;
