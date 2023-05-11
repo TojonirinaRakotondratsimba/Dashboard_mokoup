@@ -1,167 +1,138 @@
 body{
     margin: 0;
-
+}
+.body_index {
+    background: #BDA3EFFF;
 }
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-#registration{
-    background: #BDA3EFFF;
-    height: 100vh;
-}
-.registration-container {
-    margin-top: -382px;
-    top: 0;
-    left: 0;
-    height: 564px;
-    border-radius: 0;
+.head{
     background: #BDA3EFFF;
 }
-.images {
-    position: relative;
-    top: -41px;
-    left: 49px;
-    width: 173px;
-    height: 54px;
+header a img {
+    margin-top: 40px;
+    margin-left: 50px;
+    width: 145px;
+    height: 45px;
     border-radius: 4px;
 }
-/* **************************/
-.group {
-    position: relative;
-    margin-top: -15px;
-    width: 437px;
-}
-/*****************************************************************************/
-.group img{
-    width: 100%;
-}
-/*****************************************************************************/
-.group-container{
-    max-width: 90%;
-    margin: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-
-}
-
-.container-contact {
-    position: relative;
-    margin-top: -200px;
-    width: 33%;
-    height: 746px;
-    background: #FFFFFFFF;
-    border-radius: 10px;
-    padding: 25px;
-}
-
-/*************************************/
 @font-face {
     font-family: 'Epilogue';
     src: url("font-family/epilogue/static/Epilogue-Bold.ttf"),
     url("font-family/epilogue/static/Epilogue-ExtraLight.ttf"),
     url("font-family/epilogue/static/Epilogue-Light.ttf"),
     url("font-family/epilogue/static/Epilogue-Medium.ttf");
-
 }
-
 /*************************************/
-
 @font-face {
     font-family: 'Inter';
     src: url("font-family/inter/static/Inter-SemiBold.ttf");
 }
-/*************************************/
-
-.container-contact h1{
-    margin-top: 24px;
-    font-family: sans-serif;
+/*************container_registration************/
+.container_registration{
+    background: #BDA3EFFF;
+}
+.container_registration .picture{
+    display: flex;
+    justify-content: space-between;
+    max-width: 90%;
+    margin: auto;
+}
+.container_registration .picture .images{
+    margin-top: 57px;
+    width: 35.5%;
+    height: auto;
+}
+.container_registration .container {
+    width: 35%;
+    height: 75vh;
+    background: #FFFFFFFF;
+    padding: 30px;
+    border-radius: 8px;
+}
+/***.container_registration .content .button****/
+.container_registration .content{
+    text-align: center;
+    width: 100%;
+}
+.container_registration .content .button img{
+    width: 16px;
+    height: 16px;
+}
+.container .content h1{
+    font-family: "Inter";
     font-size: 20px;
     line-height: 36px;
     margin-bottom: -10px;
-
 }
-.container-contact p{
-    font-family: sans-serif;
+.container .content p{
+    font-family: "inter";
     font-size: 12px;
-    line-height: 20px;
+    line-height: 30px;
     color: #9095A0FF;
 }
-.container-contact .text{
-    text-align: center;
-}
-.container-contact .button img{
-    width: 16px;
-    height: 16px;
-    fill: #565E6CFF;
-}
-.button .btn1{
-    background: #FEF1F1FF;
-
-}
-.button .btn1:hover{
-    background-color: #565E6CFF;
-}
-.button .btn2{
-    background: #F3F6FBFF;
-}
-.button .btn2:hover{
-    color: #335CA6FF;
-    background: #D9E2F3FF;
-}
-.button .btn3{
-    background: #F3F4F6FF;
-}
-.button .btn3:hover{
-    color: #565E6CFF;
-    background: #DEE1E6FF;
-}
-.button .btn3:hover:active {
-    color: #565E6CFF;
-    background: #CFD2DAFF;
-}
-.button button{
+.content .button button{
     width: 81px;
     height: 31px;
     border-radius: 18px;
     border: none;
+}
+.content .button .btn1{
+    background: #FEF1F1FF;
 
 }
-/********************formulaire*/
-
-.text-box-input{
+.content .button .btn1:hover{
+    background-color: #565E6CFF;
+}
+.content .button .btn2{
+    background: #F3F6FBFF;
+}
+.content .button .btn2:hover{
+    color: #335CA6FF;
+    background: #D9E2F3FF;
+}
+.content .button .btn3{
+    background: #F3F4F6FF;
+}
+.content .button .btn3:hover{
+    color: #565E6CFF;
+    background: #DEE1E6FF;
+}
+.content .button .btn3:hover:active {
+    color: #565E6CFF;
+    background: #CFD2DAFF;
+}
+/***.container_registration .content .text-box****/
+.content .text-box-input{
     display: flex;
     flex-direction: column;
     text-align: left;
     margin-top: 20px;
     font-size: 18px;
-
 }
-.text-box-input label{
+.content .text-box-input label{
     font-size: 14px;
     font-family:"inter";
-
 }
-.text-box-input input{
+.content .text-box-input input{
     width: 100%;
     height: 35px;
     font-size: 14px;
     background: #F3F4F6FF;
     border-radius: 22px;
-    border-width: 0px;
+    border-width: 0;
     outline: none;
 }
-
-.formulaire input{
+.content .formulaire input{
     width: 384px;
     height: 44px;
     padding-left: 16px;
     padding-right: 16px;
 }
-
-/******button2*******/
-.button2 button{
+.text-box .button2 button{
     margin-top: 40px;
     height: 40px;
     width: 100%;
@@ -174,67 +145,38 @@ body{
     background: #00BDD6FF;
     cursor: pointer;
 }
-.button2 a{
+.text-box .button2 a{
     text-decoration: none;
     font-size: 14px;
     line-height: 22px;
     color: #00BDD6FF;
 }
-.button2 .texte{
+.text-box .button2 .texte{
     font-family: Inter;
     font-size: 14px;
-    line-height: 22px;
+    line-height: 40px;
     color: #323842FF;
 }
-.button2 .texte-lien{
+.text-box .button2 .texte-lien{
     font-size: 18px;
 }
-.button2 p{
+.text-box .button2 p{
     color: #323842FF;
 }
-
-
-/**********************/
-.themeContainer{
-    margin-left: -344px;
-    margin-top: -77px;
-    top: 0;
-}
-.theme{
-    width: 562px;
-    height: 562px;
-}
-#yellow{
-    background: #8353E24D;
-    border-radius: 50%;
-}
-
-.yellowTheme{
-    background: navy;
-    color: white;
-}
-
-.them-contain{
-    margin-top: -108px;
-}
-.them-co{
-    display: flex;
-    justify-content: space-between;
-}
-/**********************/
-.pass{
+/*******affiche et masquer le mot de passe******/
+.text-box .pass{
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: #F3F4F6FF;
     border-radius: 22px;
 }
-.pass img{
+.text-box .pass img{
     width: 28px;
     height: 20px;
     margin-right: 8px;
 }
-.text-box-input .i_input{
+.text-box .text-box-input .i_input{
     width: 100%;
 }
 /**********************D_flex_B************************/
@@ -274,6 +216,9 @@ body{
 .tabbar_menu{
     display: none;
     background-color:#ffffff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 .tabbar_menu ul{
     display: flex;
@@ -387,202 +332,218 @@ body{
 /* *******************************responsive de registration***********************************************/
 
 @media screen  and (max-width: 1920px){
-    .registration-container {
-        top: 0;
-        left: 0;
-        border-radius: 0;
+    header a img {
+        margin-top: 52px;
+        margin-left: 50px;
+        width: 200px;
+        height: 60px;
     }
-    .registration-container .images {
-        top: -140px;
+    .container_registration .content {
+        margin-top: 45px;
     }
-    .registration-container .images img{
-        width: 240px;
+    .container_registration .picture .images {
+        width: 44%;
+        height: auto;
     }
-    .container-contact {
-        position: relative;
-        margin-top: -150px;
-        width: 38%;
-        height: 746px;
-        background: #FFFFFFFF;
-        border-radius: 10px;
-        padding: 30px;
-    }
-    .group {
-        position: relative;
-        margin-top: -45px;
+    .container_registration .container {
+        margin-top: 25px;
         width: 40%;
+        height: 75vh;
+        background: #FFFFFFFF;
+        padding: 40px;
+        border-radius: 8px;
     }
-    .theme {
-        width: 700px;
-        height: 700px;
+    .container .content h1 {
+        font-size: 27px;
     }
-    .text-box-input input {
+    .container .content p {
+        font-size: 14px;
+        line-height: 55px;
+    }
+    .container_registration .content .button img {
+        width: 22px;
+        height: 22px;
+    }
+    .content .button button {
+        width: 100px;
+        height: 40px;
+        border-radius: 20px;
+    }
+    .content .text-box-input input {
         height: 75px;
+        font-size: 18px;
+        border-radius: 40px;
     }
-    .button2 button {
-        height: 75px;
-        font-size: 24px;
-    }
-    .text-box-input label {
-        font-size: 22px;
-        font-family: "inter";
-    }
-    .text-box-input {
-        margin-top: 30px;
-    }
-    .container-contact h1 {
-        margin-top: 24px;
-        font-size: 30px;
-        margin-bottom: 0;
-    }
-    .button2 .texte-lien {
-        font-size: 24px;
-    }
-    .button2 .texte {
+    .content .text-box-input label {
         font-size: 20px;
     }
-    .container-contact p {
-        font-size: 18px;
+    .text-box .button2 button {
+        height: 75px;
+        font-size: 24px;
+        border-radius: 40px;
     }
-    .button button {
-        width: 125px;
-        height: 45px;
-        border-radius: 30px;
+    .text-box .button2 .texte {
+        font-family: "Inter";
+        font-size: 16px;
+        line-height: 60px;
     }
-    .registration-container {
-        margin-top: -393px;
+    .text-box .button2 .texte-lien {
+        font-size: 24px;
     }
-
+    .text-box .pass {
+        border-radius: 40px;
+    }
 }
 @media screen  and (max-width: 1367px){
-    .registration-container .images img {
-        width: 130px;
+    header a img {
+        margin-top: 40px;
+        margin-left: 50px;
+        width: 145px;
+        height: 45px;
     }
-    .registration-container .images {
-        top: -42px;
+    .container_registration .picture .images {
+        margin-top: 57px;
+        width: 35.5%;
     }
-    .theme {
-        width: 568px;
-        height: 568px;
-    }
-    .container-contact {
-        margin-top: -70px;
-        width: 30%;
-        height: 440px;
-    }
-    .container-contact p {
-        font-size: 12px;
-    }
-    .container-contact h1 {
+    .container .content h1 {
         font-size: 20px;
-        margin: 0;
+        line-height: 36px;
+        margin-bottom: -10px;
     }
-    .button button {
-        width: 80px;
-        height: 30px;
-        border-radius: 30px;
+    .container .content p {
+        font-size: 12px;
+        line-height: 30px;
     }
-    .button2 .texte {
-        font-size: 13px;
+    .content .button button {
+        width: 81px;
+        height: 31px;
+        border-radius: 18px;
+        border: none;
+    }
+    .container_registration .content .button img {
+        width: 16px;
+        height: 16px;
+    }
+    .container_registration .container {
+        margin-top: 0;
+        width: 35%;
+        height: 490px;
+        padding: 30px;
+    }
+    .content .text-box-input label {
+        font-size: 14px;
+    }
+    .content .text-box-input input {
+        width: 100%;
+        height: 35px;
+        font-size: 14px;
+        border-radius: 22px;
+    }
+    .text-box .button2 button {
+        margin-top: 40px;
+        height: 40px;
+        width: 100%;
+        border-radius: 32px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .container_registration .content {
+        margin-top: 0;
+    }
+    .text-box .button2 .texte {
+        font-size: 14px;
         line-height: 40px;
     }
-    .text-box-input label {
-        font-size: 14px;
-    }
-    .text-box-input input {
-        height: 40px;
-        font-size: 12px;
-    }
-
-    .button2 button {
-        margin-top: 30px;
-        height: 40px;
-        font-size: 17px;
-    }
-    .button {
-      margin-top: 10px;
-    }
-    .button2 .texte {
-        font-size: 14px;
-    }
-    .button2 .texte-lien {
+    .text-box .button2 .texte-lien {
         font-size: 18px;
     }
-    .group {
-        margin-top: -37px;
-        width: 47%;
-        height: 80vh;
+}
+@media screen and (max-width: 1116px){
+    .container_registration .picture .images {
+        margin-top: 80px;
+        width: 41.5%;
+        height: auto;
     }
-    .group img {
-        width: 80%;
-    }
-    .text-box-input {
-        margin-top: 20px;
+    .container_registration .container {
+        margin-top: 0;
+        width: 42%;
+        height: 490px;
+        padding: 30px;
     }
 }
-@media screen and (max-width: 1115px){
-    .group {
-        margin-top: 45px;
-        width: 47%;
-        height: 70vh;
-    }
-}
-@media screen and (max-width: 767px){
-    .registration-container  .group-container {
-        max-width: 100%;
-        margin: auto;
+
+@media screen and (max-width: 992px){
+    .container_registration .picture{
         display: flex;
         flex-direction: column;
+        max-width: 100%;
+        margin: auto;
     }
-    .container-contact {
-        margin-top: -70px;
-        width: 100% !important;
-        height: 80vh;
-        padding: 40px 0;
-    }
-    .text-box-input {
-        margin: 35px 20px;
-    }
-    .container-contact .button2{
-        margin: 35px 20px;
-    }
-    .registration-container .group-container .group img {
-        margin-top: -55px;
-        margin-left: 144px;
+    .container_registration .picture .images {
+        margin-top: 30px;
+        width: 55.5%;
         height: auto;
-        width: 65%;
+        margin-left: 200px;
     }
-    .registration-container  .group-container .group  {
+    .container_registration .container {
+        margin-top: 0;
         width: 100%;
-        height: auto;!important;
+        height: 100%;
+        padding: 30px;
+    }
+    .content .text-box-input input {
+        width: 100%;
+        height: 60px;
+        font-size: 15px;
+        border-radius: 33px;
+    }
+    .text-box .button2 button {
+        height: 60px;
+        line-height: 28px;
+    }
+    .content .button button {
+        width: 100px;
+        height: 40px;
+    }
+    .container .content h1 {
+        font-size: 23px;
+        line-height: 45px;
+        margin-bottom: -10px;
+    }
+    .content .text-box-input label {
+        font-size: 16px;
+    }
+    .container .content p {
+        font-size: 14px;
+        line-height: 40px;
+    }
+}
+@media screen and (max-width: 900px){
+    .content .button button {
+        width: 35px;
+        height: 35px;
+    }
+}
+@media screen and (max-width: 576px){
+    .container_registration .container {
+        margin-top: -45px;
+        width: 100%;
+        padding: 30px;
     }
 }
 @media screen and (max-width: 500px){
-    .theme {
-        width: 500px;
-        height: 500px;
-    }
-    .registration-container .images {
-        top: 12px;
-    }
-    .registration-container .images img {
-        width: 100px;
-    }
-    .registration-container .group-container .group img {
-        width: 60%;
+    .container_registration .picture .images {
+        margin-left: 145px;
     }
 }
-@media screen and (max-width: 400px){
-    .registration-container .group-container .group img {
-        margin-left: 115px!important;
-    }
-    .container-contact {
-        margin-top: -38px;
+@media screen and (max-width: 380px){
+    .container_registration .picture .images {
+        margin-left: 115px;
     }
 }
-@media screen and (max-width: 320px){
-    .registration-container .group-container .group img {
-        margin-left: 77px!important;
+@media screen and (max-width: 380px){
+    .container_registration .picture .images {
+        margin-left: 95px;
     }
 }
 /***************************************************dashboard********************************************************/
@@ -1484,9 +1445,6 @@ td, th {
     .statistics {
         width: 100%;
     }
-    /*.column-bar-img img {*/
-    /*    height: auto;*/
-    /*}*/
     .column-bar-img img {
         width: 100%;
         height: 270px;
@@ -1520,6 +1478,7 @@ td, th {
     }
     .statistics {
         width: 100%;
+        height: 60vh;
     }
 
     .tabbar_menu {
@@ -1592,7 +1551,7 @@ td, th {
         width: 100%;
     }
     .statistics img {
-        width: 50%;
+        width: 45%;
         height: auto;
     }
 }
@@ -1604,7 +1563,24 @@ td, th {
         font-size: 12px;
     }
 }
-
+@media screen and (max-width: 500px){
+    .statistics img {
+        width: 75%;
+        height: auto;
+    }
+}
+@media screen and (max-width: 400px){
+    .statistics img {
+        width: 100%;
+        height: auto;
+    }
+}
+@media screen and (max-width: 300px){
+    .statistics {
+        width: 100%;
+        height: 50vh;
+    }
+}
     /*****************************************************calendar*********************************************************/
 
 .container-header{
@@ -2521,6 +2497,9 @@ td, th {
     }
 }
 @media screen and (max-width: 630px){
+    .container-section-2 {
+        height: 735px;
+    }
     .partie-A .container-body .date .avatar_2{
         display: block;
         margin-left: 20px;
@@ -2533,6 +2512,7 @@ td, th {
         display: flex;
         align-items: center;
         justify-content: space-between;
+        margin-bottom: 100px;
     }
     .partie-A .calendrier .d_flex_res button{
         font-family: Epilogue;
@@ -2564,6 +2544,10 @@ td, th {
         flex-direction: column;
         row-gap: 30px;
         padding: 20px;
+        margin-top: -750px;
+    }
+    .container-section-2 .line_verticale {
+        margin-top: -175px
     }
     .container-section-1 .container-header h1 {
         font-size: 22px;
@@ -3029,6 +3013,10 @@ td, th {
     }
 }
 @media screen and (max-width: 992px){
+    .container-images-text-button_footer {
+        display: block;
+        height: 46vh;
+    }
 
 }
 @media screen and (max-width: 768px){
@@ -3073,8 +3061,6 @@ td, th {
     .lien-https img {
         width: 35px!important;
     }
-}
-
 }
 /************************lien-logo***************************/
 .lien-https{
