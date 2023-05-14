@@ -2198,6 +2198,7 @@ td, th {
     border: none;
     position: fixed;
     bottom: 165px;
+    right: 65px;
 }
 .container-section-2 .partie_resp .btn_add{
     display: flex;
