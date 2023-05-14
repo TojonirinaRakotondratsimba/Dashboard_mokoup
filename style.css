@@ -1316,6 +1316,7 @@ td, th {
         display: none;
     }
 }
+
 /**********************************************responsive de dashboard*************************************************/
 @media screen  and (max-width: 1367px){
     .corps .container {
@@ -2115,7 +2116,7 @@ td, th {
     display: none;
 }
 .container-section-2 .line_verticale{
-    border-left: 6px solid  #A6F5FFFF;
+    border-left: 4px solid  #A6F5FFFF;
     height: 790px;
     margin-left: 115px;
     margin-top: -80px;
@@ -2195,6 +2196,8 @@ td, th {
     margin-top: 40px;
     cursor: pointer;
     border: none;
+    position: fixed;
+    bottom: 165px;
 }
 .container-section-2 .partie_resp .btn_add{
     display: flex;
@@ -2313,7 +2316,7 @@ td, th {
     }
 
     .partie-B {
-        height: 290px;
+        height: 235px;
     }
 
     .container-section-1 .container-header h1 {
@@ -2402,9 +2405,15 @@ td, th {
 
     .container-section-2 .partie-C {
         width: 70%;
-        margin-top: -90px;
+        margin-top: -37px;
     }
-
+    .container-section-2 .partie-C-1 {
+        margin-top: 80px;
+    }
+    .container-section-2 .top-0{
+        margin-top: 0!important;
+    }
+    
     .container-section-2 .event-title h3 {
         font-size: 14px;
     }
@@ -2429,7 +2438,7 @@ td, th {
     }
 
     .container-section-2 .images {
-        left: 50px;
+        left: 25px!important;
         width: 135px;
         height: 30px;
     }
@@ -3015,9 +3024,8 @@ td, th {
 @media screen and (max-width: 992px){
     .container-images-text-button_footer {
         display: block;
-        height: 46vh;
+        height: 48vh;
     }
-
 }
 @media screen and (max-width: 768px){
     .corps .texto-img-button .text-picture button{
