@@ -420,7 +420,7 @@ header a img {
     margin-left: -0px;
 }
 .sidebar-head{
-    padding: 20px;
+    padding: 25px 0;
     display: flex;
     align-items: center;
     gap: 10px;
@@ -786,7 +786,6 @@ li img{
     font-size: 18px;
     line-height: 28px;
     color: #171A1FFF;
-    margin: 0px;
 }
 
 .input-month{
@@ -1161,7 +1160,7 @@ td, th {
         margin-left: 15px;
     }
     .sidebar-head {
-        padding: 12px;
+        padding: 22px 13px;
     }
     .sidebar-head .text a {
         line-height: 32px!important;
