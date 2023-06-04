@@ -642,7 +642,7 @@ li img{
     top: 46px;
     left: 16px;
     font-family: 'Epilogue';
-    font-size: 25px;
+    font-size: 22px;
     line-height: 30px;
     color: #323842FF;
 }
@@ -1178,9 +1178,8 @@ td, th {
     .sidebar-menu .liste {
         margin-bottom: 15px;
     }
-
     .w3-bar-block .w3-bar-item {
-        font-size: 20px;
+        font-size: 17px;
     }
     .sidebar-images img {
         width: 45px;
@@ -1193,7 +1192,7 @@ td, th {
         bottom: 0;
     }
     .corps .container h1 {
-        font-size: 30px;
+        font-size: 28px;
     }
     .d-flex-A  .column-container-1 {
         height: 170px;
@@ -1210,22 +1209,21 @@ td, th {
     .corps .container .button .button-1 {
         width: 225px;
         height: 70px;
-        font-size: 18px;
-
+        font-size: 16px;
     }
     .corps .container .button .button-2 {
         width: 120px;
         height: 70px;
-        font-size: 18px;
+        font-size: 16px;
     }
     .d-flex-A .d-block-1 {
         width: 40%;
     }
     .stat-selected-column-bar .stat {
-        font-size: 20px;
+        font-size: 18px;
     }
     .d-flex-A .big-container .nav h2 {
-        font-size: 20px;
+        font-size: 18px;
     }
     .d-flex-A .image-texte {
         height: 100px;
@@ -1234,16 +1232,16 @@ td, th {
         width: 60px;
     }
     .d-flex-A .image-texte .text h4 {
-        font-size: 17px;
+        font-size: 15px;
     }
     .d-flex-A .image-texte .text p {
         font-size: 14px;
     }
     .d-flex-B .table-stat h2 {
-        font-size: 20px;
+        font-size: 18px;
     }
     .d-flex-B .statistics .text-stats h3 {
-        font-size: 20px;
+        font-size: 18px;
     }
     .d-flex-B .table-stat table th {
         font-size: 18px;
