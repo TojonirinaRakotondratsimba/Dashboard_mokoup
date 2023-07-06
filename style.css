@@ -9,7 +9,6 @@ body{
 button{
     cursor: pointer;
 }
-
 @font-face {
     font-family: 'Epilogue';
     src: url("font-family/epilogue/static/Epilogue-Bold.ttf"),
@@ -36,9 +35,7 @@ header a img {
     height: 45px;
     border-radius: 4px;
 }
-.container_registration .picture{
 
-}
 .container_registration .picture .images{
     width: 600px;
     position: absolute;
@@ -2892,13 +2889,17 @@ td, th {
 @media screen and (max-width: 992px){
     .container-images-text-button_footer {
         display: block;
-        height: 48vh;
     }
     .texto-img-button {
         margin-left: 0;
     }
     .lien-https {
         margin-left: 0;
+    }
+    .setting {
+        position: relative;
+        bottom: 125px;
+        margin-top: 125px;
     }
 }
 @media screen and (max-width: 768px){
@@ -2989,7 +2990,7 @@ td, th {
     line-height: 22px;
     color: #323842FF;
 }
-/********.switch-button*********/
+/*******.switch-button*******/
 .switch-button .form-switch .form-check-input {
     width: 43px;
     height: 24px;
