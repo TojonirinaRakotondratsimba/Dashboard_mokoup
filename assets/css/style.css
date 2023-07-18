@@ -21,6 +21,43 @@ button{
     font-family: 'Inter';
     src: url("font-family/inter/static/Inter-SemiBold.ttf");
 }
+
+/* ***************** */
+.themeContainer{
+    margin-left: -344px;
+    margin-top: -77px;
+    top: 0;
+}
+.theme{
+    width: 562px;
+    height: 562px;
+}
+#yellow {
+    background: #8353E24D;
+    border-radius: 50%;
+}
+.them-contain{
+    margin-top: -108px;
+}
+.them-content{
+    display: flex; 
+}
+.oval {
+    position: absolute;
+    top: -50px;
+}
+/* .oval-2 {
+    position: absolute;
+    top: -50px;
+    left: 400px;
+} */
+.oval img {
+    width: 150px;
+    bottom: 0;
+    left: 40px;
+    top: 100px;
+    position: absolute;
+}
 /****************registration******************/
 .body_registration{
     background: #BDA3EFFF;
@@ -55,6 +92,7 @@ button{
     right: 90px;
     width: 35%;
     height: 75vh;
+    top: 90px;
     background: #FFFFFF;
     padding: 30px;
     border-radius: 8px;
@@ -272,6 +310,7 @@ button{
 }
 @media screen and (max-width: 992px) {
     .container_registration .container {
+        position: relative;
         right: 0;
         width: 100%;
         height: auto;
@@ -332,7 +371,8 @@ button{
     }
     .container_registration .picture .images img {
         width: 60%;
-        top: 84px;
+        top: 175px;
+        left: 100px;
     }
 }
 
