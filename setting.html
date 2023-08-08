@@ -1,15 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <title>setting</title>
-    <link rel="stylesheet" href="assets/css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/setting.css">
+    <link rel="stylesheet" href="assets/css/sidebar.css">
+    <link rel="stylesheet" href="assets/css/footer_menu.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
-<div class="w3-sidebar w3-bar-block w3-sidebar " style="width:18%;height: 100vh">
+
+<section class="w3-sidebar w3-bar-block w3-sidebar">
     <div class="sidebar-head">
         <a href="index.html">
             <img src="assets/images/picture/prim-logo.png" alt="">
@@ -68,258 +71,237 @@
             </div>
         </div>
     </div>
-</div>
-<!-- Page Content -->
-<section class="corps setting" style="margin-left:18%">
-    <div class="texto-img-button">
-        <div class="text-images">
-            <div class="images-button">
-                <div class="text-picture">
-                    <button class="img"><img src="assets/images/image_responsive/Button%203007.png" alt=""></button>
+</section>
+<main>
+    <section class="connected">
+        <div class="container-connected">
+            <div class="block-connected">
+                <div class="row-connected">
+                    <button class="preview"><i class="fa-solid fa-angle-left"></i></button>
                     <div>
-                        <div class="titre">Connected apps</div>
+                        <div class="title">Connected apps</div>
                         <p>Dolor sunt non qui adipisicing mollit ad</p>
                     </div>
-                    <img class="none" src="assets/images/Bilder/image-1.png" alt="">
+                    <div class="content-connected">
+                        <div class="content-connected-first">
+                            <img class="none" src="assets/images/Bilder/image-1.png" alt="">
+                            <div class="row-connected-second">
+                                <div class="text">
+                                    <h2>We've just realeased a new update</h2>
+                                    <p>Dolor sunt non qui adipisicing mollit ad</p>
+                                </div>
+                                <div class="first-btn">
+                                    <button class="btn btn1">Dismiss</button>
+                                    <button class="btn btn2">update</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="text-button">
+                <div class="content-connected-second first">
+                    <img src="assets/images/Bilder/Image%202559-2.png" alt="">
                     <div class="text">
-                        <div class="petit-titre">We've just realeased a new update</div>
-                        <p>Dolor sunt non qui adipisicing mollit ad</p>
-                    </div>
-                    <div class="button-A">
-                        <button class="btn1">Dismiss</button>
-                        <button class="btn2">update</button>
+                        <div class="letter">72%</div>
+                        <h2>Used credits this month</h2>
+                        <p>Your teams has used 72% of your available credits. Need more?</p>
+                        <div class="second-btn">
+                            <button class="btn btn1">Dismiss</button>
+                            <button class="btn btn2">Upgrade</button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!--****** *****-->
-        <div class="container-images-text-button">
-            <img src="assets/images/Bilder/Image%202559-2.png" alt="">
-            <div class="texto">
-                <h2>72%</h2>
-                <div class="petit-titre">Used credits this month</div>
-                <p>Your teams has used 72% of your available credits. Need more?</p>
-            </div>
-            <div class="button-B">
-                <button class="btn1">Dismiss</button>
-                <button class="btn2">Upgrade</button>
-            </div>
-        </div>
-    </div>
-    <!-- ******lien-logo******   -->
-    <div class="lien-https">
-        <div class="logo">
-            <div class="logo-text">
+    </section>
+    <section class="contact">
+        <div class="logo-container">
+            <div class="row-left">
                 <a href="">
-                    <img src="assets/images/Bilder/Button-twiter.png" alt="">
+                    <img src="assets/images/Bilder/Button-twiter.png" alt="logo twitter">
                 </a>
-                <div class="titre-para">
+                <div class="text">
                     <h5>Twitter</h5>
                     <p>Shores brief of integrations</p>
                 </div>
             </div>
-            <div class="text-right">
+            <div class="row-right">
                 <p>Learn more</p>
-                <div class="switch-button">
-                    <div class="form-check form-switch">
-                        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
-                        <label class="form-check-label" for="flexSwitchCheckDefault"></label>
-                    </div>
-                </div>
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider"></span>
+                </label>
             </div>
         </div>
-        <hr>
-        <div class="logo">
-            <div class="logo-text">
-                <a href="https://facebook.com">
+        <div class="logo-container">
+            <div class="row-left">
+                <a href="">
                     <img src="assets/images/Bilder/Button-facebook.png" alt="logo facebook">
                 </a>
-                <div class="titre-para">
-                    <h5>Facebook</h5>
+                <div class="text">
+                    <h5>Twitter</h5>
                     <p>Shores brief of integrations</p>
                 </div>
             </div>
-            <div class="text-right">
+            <div class="row-right">
                 <p>Learn more</p>
-                <div class="switch-button">
-                    <div class="form-check form-switch">
-                        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
-                        <label class="form-check-label" for="flexSwitchCheckDefault"></label>
-                    </div>
-                </div>
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider"></span>
+                </label>
             </div>
         </div>
-        <hr>
-        <div class="logo">
-            <div class="logo-text">
-                <a href="#">
+        <div class="logo-container">
+            <div class="row-left">
+                <a href="">
                     <img src="assets/images/Bilder/Images-line.png" alt="">
                 </a>
-                <div class="titre-para">
-                    <h5>Line</h5>
+                <div class="text">
+                    <h5>Twitter</h5>
                     <p>Shores brief of integrations</p>
                 </div>
             </div>
-            <div class="text-right">
+            <div class="row-right">
                 <p>Learn more</p>
-                <div class="switch-button">
-                    <div class="form-check form-switch">
-                        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
-                        <label class="form-check-label" for="flexSwitchCheckDefault"></label>
-                    </div>
-                </div>
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider"></span>
+                </label>
             </div>
         </div>
-        <hr>
-        <div class="logo">
-            <div class="logo-text">
-                <a href="#">
+        <div class="logo-container">
+            <div class="row-left">
+                <a href="">
                     <img src="assets/images/Bilder/Image-meinterest.png" alt="">
                 </a>
-                <div class="titre-para">
-                    <h5>PInterest</h5>
+                <div class="text">
+                    <h5>Twitter</h5>
                     <p>Shores brief of integrations</p>
                 </div>
             </div>
-            <div class="text-right">
+            <div class="row-right">
                 <p>Learn more</p>
-                <div class="switch-button">
-                    <div class="form-check form-switch">
-                        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
-                        <label class="form-check-label" for="flexSwitchCheckDefault"></label>
-                    </div>
-                </div>
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider"></span>
+                </label>
             </div>
         </div>
-        <hr>
-        <div class="logo">
-            <div class="logo-text">
-                <a href="#">
+        <div class="logo-container">
+            <div class="row-left">
+                <a href="">
                     <img src="assets/images/Bilder/Image-slack.png" alt="">
                 </a>
-                <div class="titre-para">
-                    <h5>Slack</h5>
+                <div class="text">
+                    <h5>Twitter</h5>
                     <p>Shores brief of integrations</p>
                 </div>
             </div>
-            <div class="text-right">
+            <div class="row-right">
                 <p>Learn more</p>
-                <div class="switch-button">
-                    <div class="form-check form-switch">
-                        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
-                        <label class="form-check-label" for="flexSwitchCheckDefault"></label>
-                    </div>
-                </div>
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider"></span>
+                </label>
             </div>
         </div>
-        <hr>
-        <div class="logo">
-            <div class="logo-text">
-                <a href="#">
+        <div class="logo-container">
+            <div class="row-left">
+                <a href="">
                     <img src="assets/images/Bilder/Image%202553-skype.png" alt="">
                 </a>
-                <div class="titre-para">
-                    <h5>Skype</h5>
+                <div class="text">
+                    <h5>Twitter</h5>
                     <p>Shores brief of integrations</p>
                 </div>
             </div>
-            <div class="text-right">
+            <div class="row-right">
                 <p>Learn more</p>
-                <div class="switch-button">
-                    <div class="form-check form-switch">
-                        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
-                        <label class="form-check-label" for="flexSwitchCheckDefault"></label>
-                    </div>
-                </div>
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider"></span>
+                </label>
             </div>
         </div>
-        <hr>
-        <div class="logo">
-            <div class="logo-text">
-                <a href="#">
+        <div class="logo-container">
+            <div class="row-left">
+                <a href="">
                     <img src="assets/images/Bilder/Image%202557-jira.png" alt="">
                 </a>
-                <div class="titre-para">
-                    <h5>Jira</h5>
+                <div class="text">
+                    <h5>Twitter</h5>
                     <p>Shores brief of integrations</p>
                 </div>
             </div>
-            <div class="text-right">
+            <div class="row-right">
                 <p>Learn more</p>
-                <div class="switch-button">
-                    <div class="form-check form-switch">
-                        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
-                        <label class="form-check-label" for="flexSwitchCheckDefault"></label>
-                    </div>
-                </div>
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider"></span>
+                </label>
             </div>
         </div>
-        <hr>
-        <div class="logo">
-            <div class="logo-text">
-                <a href="#">
+        <div class="logo-container">
+            <div class="row-left">
+                <a href="">
                     <img src="assets/images/Bilder/Image%202558-instagrame.png" alt="">
                 </a>
-                <div class="titre-para">
-                    <h5>Instagram</h5>
+                <div class="text">
+                    <h5>Twitter</h5>
                     <p>Shores brief of integrations</p>
                 </div>
             </div>
-            <div class="text-right">
+            <div class="row-right">
                 <p>Learn more</p>
-                <div class="switch-button">
-                    <div class="form-check form-switch">
-                        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitch">
-                        <label class="form-check-label" for="flexSwitch"></label>
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider"></span>
+                </label>
+            </div>
+        </div>
+        <div class="content-connected-second content-connected-second-2">
+            <div class="seconds">
+                <div class="letter">72%</div>
+                <div class="seconds-container">
+                    <h2>Used credits this month</h2>
+                    <div class="text">Your teams has used 72% of your available credits. Need more?</div>
+                    <div class="second-btn ">
+                        <button class="btn1">Dismiss</button>
+                        <button class="btn2">Upgrade</button>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-<!--********container-images-text-button_foot********-->
-    <div class="container-images-text-button_footer">
-        <h2>72</h2>
-        <div class="foot">
-            <div class="big_title">Used credits this month</div>
-            <div class="paragraph">Your teams has used 72% of your available credits. Need more?</div>
-            <div class="button1-2">
-                <button class="btn1">Dismiss</button>
-                <button class="btn2">Upgrade</button>
-            </div>
-        </div>
-    </div>
-</section>
-
-<div class="tabbar_menu">
-    <ul>
-        <li class="foot_page ">
-            <img  class="images_noire"  src="assets/images/picture/imgpsh_fullsize_anim%20(1).png" alt="logo dashboard noire">
-            <img class="image_bleu" src="assets/images/image_responsive/icons8-four-squares-48.png" alt="logo dashboard bleu">
-            <a href="dashboard.html" class="w3-bar-item">Dashboard</a>
-        </li>
-        <li class="foot_page">
-            <img  class="images_noire" src="assets/images/picture/imgpsh_fullsize_anim%20(7).png" alt="logo calendrier noire">
-            <img class="image_bleu" src="assets/images/image_responsive/icons8-calendar-31-50.png" alt="logo calendrier bleu">
-            <a href="calendar.html" class="w3-bar-item ">Calendar</a>
-        </li>
-        <li class="foot_page">
-            <img class="images_noire" src="assets/images/picture/imgpsh_fullsize_anim%20(6).png" alt="logo homme noire">
-            <img class="image_bleu" src="assets/assets/images/image_responsive/user-account-50.png" alt="logo homme bleu">
-            <a href="#" class="w3-bar-item ">Teams</a>
-        </li>
-        <li class="foot_page">
-            <img class="images_noire" src="assets/images/image_responsive/message_12.png" alt="logo message noire">
-            <img class="image_bleu" src="assets/images/image_responsive/message11-32%20(1).png" alt="logog message bleu">
-            <a href="#" class="w3-bar-item ">Messages</a>
-        </li>
-        <li class="foot_page setting_active">
-            <img class="images_noire" src="assets/images/image_responsive/icons8-setting-64.png" alt="logo parametre  noire">
-            <img class="image_bleu" src="assets/images/image_responsive/icons8-setting-64%20(2).png" alt="logo parametre bleu">
-            <a href="setting.html" class="w3-bar-item ">Setting</a>
-        </li>
-    </ul>
-</div>
+    </section>
+    <section class="tabbar_menu">
+        <ul>
+            <li class="foot_page ">
+                <img  class="images_noire"  src="assets/images/picture/imgpsh_fullsize_anim%20(1).png" alt="logo dashboard noire">
+                <img class="image_bleu" src="assets/images/image_responsive/icons8-four-squares-48.png" alt="logo dashboard bleu">
+                <a href="dashboard.html" class="w3-bar-item">Dashboard</a>
+            </li>
+            <li class="foot_page">
+                <img  class="images_noire" src="assets/images/picture/imgpsh_fullsize_anim%20(7).png" alt="logo calendrier noire">
+                <img class="image_bleu" src="assets/images/image_responsive/icons8-calendar-31-50.png" alt="logo calendrier bleu">
+                <a href="calendar.html" class="w3-bar-item ">Calendar</a>
+            </li>
+            <li class="foot_page">
+                <img class="images_noire" src="assets/images/picture/imgpsh_fullsize_anim%20(6).png" alt="logo homme noire">
+                <img class="image_bleu" src="assets/images/image_responsive/user-account-50.png" alt="logo homme bleu">
+                <a href="#" class="w3-bar-item ">Teams</a>
+            </li>
+            <li class="foot_page">
+                <img class="images_noire" src="assets/images/image_responsive/message_12.png" alt="logo message noire">
+                <img class="image_bleu" src="assets/images/image_responsive/message11-32%20(1).png" alt="logog message bleu">
+                <a href="#" class="w3-bar-item ">Messages</a>
+            </li>
+            <li class="foot_page setting_active">
+                <img class="images_noire" src="assets/images/image_responsive/icons8-setting-64.png" alt="logo parametre  noire">
+                <img class="image_bleu" src="assets/images/image_responsive/icons8-setting-64%20(2).png" alt="logo parametre bleu">
+                <a href="setting.html" class="w3-bar-item ">Setting</a>
+            </li>
+        </ul>
+    </section>
+</main>
+<script src="assets/js/fontawesome.js"></script>
 </body>
 </html>

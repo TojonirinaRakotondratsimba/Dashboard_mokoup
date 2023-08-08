@@ -2,183 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcaed6d4-69c8-40f5-982e-9626bfcffe23" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/css/calendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/dashboard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/footer_menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/setting.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/sidebar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/toggle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/mot_de_passe/affiche.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/mot_de_passe/cache_icons8-hide-24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/mot_de_passe/cacher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/mot_de_passe/icons8-eye-32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/picture/Column bar chart 11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/picture/Group 200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/picture/Image 2344.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calendar.html" beforeDir="false" afterPath="$PROJECT_DIR$/calendar.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/font-family/epilogue/Epilogue-ExtraLight.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/font-family/epilogue/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/font-family/epilogue/static/Epilogue-Black.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/font-family/epilogue/static/Epilogue-BlackItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/font-family/epilogue/static/Epilogue-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/font-family/epilogue/static/Epilogue-BoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/font-family/epilogue/static/Epilogue-ExtraBold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/font-family/epilogue/static/Epilogue-ExtraBoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/font-family/epilogue/static/Epilogue-ExtraLight.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/font-family/epilogue/static/Epilogue-ExtraLightItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/font-family/epilogue/static/Epilogue-Italic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/font-family/epilogue/static/Epilogue-Light.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/font-family/epilogue/static/Epilogue-LightItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/font-family/epilogue/static/Epilogue-Medium.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/font-family/epilogue/static/Epilogue-MediumItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/font-family/epilogue/static/Epilogue-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/font-family/epilogue/static/Epilogue-SemiBold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/font-family/epilogue/static/Epilogue-SemiBoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/font-family/epilogue/static/Epilogue-Thin.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/font-family/epilogue/static/Epilogue-ThinItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/font-family/inter/static/Inter-Black.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/font-family/inter/static/Inter-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/font-family/inter/static/Inter-ExtraBold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/font-family/inter/static/Inter-ExtraLight.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/font-family/inter/static/Inter-Light.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/font-family/inter/static/Inter-Medium.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/font-family/inter/static/Inter-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/font-family/inter/static/Inter-SemiBold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/font-family/inter/static/Inter-Thin.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Bilder/Button-facebook.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Bilder/Button-twiter.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Bilder/Image 2553-skype.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Bilder/Image 2557-jira.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Bilder/Image 2558-instagrame.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Bilder/Image 2559-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Bilder/Image-meinterest.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Bilder/Image-slack.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Bilder/Images-line.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Bilder/image-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/calendar/Avatar 00001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/calendar/Avatar 0002.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/calendar/Avatar 0003.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/calendar/Avatar 0006.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/calendar/Avatar 1676-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/calendar/Avatar 1677-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/calendar/Avatar 1678-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/calendar/Avatar 1679-5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/calendar/Avatar 2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/calendar/Avatar 2526.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/calendar/Avatar 2528 (1).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/calendar/Avatar 3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/calendar/Avatar 4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/calendar/Avatar 5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/calendar/Avatar 6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/calendar/Avatar8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/calendar/Button 2965 (1).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/calendar/Caret left extra 4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/calendar/Caret right extra 4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/calendar/Clock 106.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/calendar/Divider 1010.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/calendar/Dots three vertical 73.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/calendar/Map pin 49.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/calendar/Oval 910 (1).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/calendar/Oval 910.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/calendar/icons8-plus-math-24 (2).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/calendar/vertical-points-30.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icon_blanc/icons-blanc-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icon_blanc/icons8-blanc-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icon_blanc/icons8-blanc-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icon_blanc/icons8-blanc-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icon_blanc/icons8-blanc-5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icon_blanc/icons8-blanc-6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icon_blanc/icons8-blanc-7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icon_blanc/imgpsh_fullsize_anim (2).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icon_blanc/imgpsh_fullsize_anim (3).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icon_blanc/imgpsh_fullsize_anim.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image_responsive/Avatar 0000 (1).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image_responsive/Avatar 00010.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image_responsive/Avatar 00011.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image_responsive/Avatar 00012.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image_responsive/Avatar 00013.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image_responsive/Avatar 001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image_responsive/Avatar 002.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image_responsive/Avatar 003.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image_responsive/Avatar 004.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image_responsive/Avatar 005.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image_responsive/Avatar 006.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image_responsive/Avatar 008.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image_responsive/Avatar 009.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image_responsive/Button 3001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image_responsive/Button 3007.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image_responsive/Caret right 9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image_responsive/Clipboard text 5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image_responsive/Clipboard text 6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image_responsive/Column bar chart 12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image_responsive/Credit card 6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image_responsive/Receipt 3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image_responsive/icons8-calendar-31-50.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image_responsive/icons8-four-squares-48.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image_responsive/icons8-setting-64 (2).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image_responsive/icons8-setting-64.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image_responsive/mes24 (3).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image_responsive/mess_noire24 (1).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image_responsive/message-24.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image_responsive/message11-32 (1).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image_responsive/message_12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image_responsive/setting.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image_responsive/user-account-50.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/mot_de_passe/affiche.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/mot_de_passe/cache_icons8-hide-24.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/mot_de_passe/cacher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/mot_de_passe/icons8-eye-32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/picture/600c61dcac65b222fbf1a8f6_Power bi dashabor design best.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/picture/Analystec.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/picture/Apple-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/picture/Avatar 1674-button.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/picture/Avatar 1675 (1).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/picture/Avatar 1676-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/picture/Avatar 1677-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/picture/Avatar 1678-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/picture/Avatar 1679-5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/picture/C1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/picture/Caret up extra 1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/picture/Caret up extra 3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/picture/Caret up extra 4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/picture/Column bar chart 11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/picture/Column bar chart 11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/picture/D1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/picture/E1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/picture/F1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/picture/Folder-Transparent-Images-Clip-Art.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/picture/G1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/picture/Group 200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/picture/H1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/picture/Image 2344.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/picture/Pie chart 3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/picture/basboard-22.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/picture/calendar-31.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/picture/caret-up-extra1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/picture/dasboard.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/picture/four-squares-50.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/picture/google-logo-rouge.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/picture/icons-blanc-2).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/picture/icons8-blanc-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/picture/icons8-calendar-31-32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/picture/icons8-folder-50.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/picture/icons8-four-squares-50.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/picture/images.analitic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/picture/images.message.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/picture/imgpsh_fullsize_anim (1).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/picture/imgpsh_fullsize_anim (2).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/picture/imgpsh_fullsize_anim (3).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/picture/imgpsh_fullsize_anim (4).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/picture/imgpsh_fullsize_anim (5).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/picture/imgpsh_fullsize_anim (6).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/picture/imgpsh_fullsize_anim (7).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/picture/imgpsh_fullsize_anim (8).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/picture/imgpsh_fullsize_anim.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/picture/left-icon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/picture/logo-facebook.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/picture/logo-prim.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/picture/logo-projet.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/picture/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/picture/plus-math-24.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/picture/prim-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/picture/right-icon (1).svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/picture/right-icon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/picture/share-24.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/picture/share-icons8-connect-50.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/picture/source-code--v4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/picture/vertical-points-30.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/resi/Group 200 (1).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/resi/Image 2345 (1).png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setting.html" beforeDir="false" afterPath="$PROJECT_DIR$/setting.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -333,6 +177,16 @@
       <workItem from="1689676845570" duration="208000" />
       <workItem from="1689677082281" duration="134000" />
       <workItem from="1689677266328" duration="136000" />
+      <workItem from="1689702477611" duration="1342000" />
+      <workItem from="1689761845496" duration="15419000" />
+      <workItem from="1691134606177" duration="2203000" />
+      <workItem from="1691140984176" duration="13407000" />
+      <workItem from="1691250979064" duration="4382000" />
+      <workItem from="1691322376110" duration="29467000" />
+      <workItem from="1691378087802" duration="3453000" />
+      <workItem from="1691403082807" duration="34364000" />
+      <workItem from="1691474397427" duration="21452000" />
+      <workItem from="1691509169691" duration="4997000" />
     </task>
     <servers />
   </component>

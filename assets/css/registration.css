@@ -1,0 +1,392 @@
+body{
+    margin: 0;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+button{
+    cursor: pointer;
+}
+@font-face {
+    font-family: 'Epilogue';
+    src: url("../font-family/epilogue/static/Epilogue-Bold.ttf"),
+    url("../font-family/epilogue/static/Epilogue-ExtraLight.ttf"),
+    url("../font-family/epilogue/static/Epilogue-Light.ttf"),
+    url("../font-family/epilogue/static/Epilogue-Medium.ttf");
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url("../font-family/inter/static/Inter-SemiBold.ttf");
+}
+/* ********** */
+.themeContainer{
+    margin-left: -344px;
+    margin-top: -77px;
+    top: 0;
+}
+.theme{
+    width: 562px;
+    height: 562px;
+}
+#yellow {
+    background: #8353E24D;
+    border-radius: 50%;
+}
+.them-contain{
+    margin-top: -108px;
+}
+.them-content{
+    display: flex;
+}
+.oval {
+    position: absolute;
+    top: -50px;
+}
+.oval img {
+    width: 150px;
+    bottom: 0;
+    left: 40px;
+    top: 100px;
+    position: absolute;
+}
+/* **** */
+.body_registration{
+    background: #BDA3EFFF;
+}
+.head{
+    background: #BDA3EFFF;
+}
+.head a img {
+    margin-top: 40px;
+    margin-left: 50px;
+    width: 145px;
+    height: 45px;
+    border-radius: 4px;
+}
+.container_registration .picture .images{
+    width: 600px;
+    position: absolute;
+    left: 90px;
+    bottom: 0;
+}
+.container_registration .picture .images img{
+    width: 500px;
+    position: relative;
+    top: 4px;
+}
+.container_registration .picture .img{
+    display: none;
+}
+.container_registration .container {
+    position: absolute;
+    right: 90px;
+    width: 35%;
+    height: 75vh;
+    top: 90px;
+    background: #FFFFFF;
+    padding: 30px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/***.container_registration .content .button****/
+.container_registration .content {
+    text-align: center;
+    width: 100%;
+}
+.container_registration .content .button img {
+    width: 16px;
+    height: 16px;
+}
+.container .content h1 {
+    font-family: "Inter";
+    font-size: 20px;
+    line-height: 36px;
+    margin-bottom: -10px;
+}
+.container .content p{
+    font-family: "inter";
+    font-size: 12px;
+    line-height: 30px;
+    color: #9095A0FF;
+}
+.content .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 28px;
+    gap: 8px;
+}
+.content .button .btn a {
+    display: flex;
+    justify-content: center;
+}
+.content .button .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 81px;
+    height: 31px;
+    border-radius: 18px;
+    border: none;
+}
+.content .button .btn1 {
+    background: #FEF1F1FF;
+}
+.content .button .btn1:hover {
+    background-color: #565E6CFF;
+}
+.content .button .btn2{
+    background: #F3F6FBFF;
+}
+.content .button .btn2:hover {
+    color: #335CA6FF;
+    background: #D9E2F3FF;
+}
+.content .button .btn3{
+    background: #F3F4F6FF;
+}
+.content .button .btn3:hover {
+    color: #565E6CFF;
+    background: #DEE1E6FF;
+}
+.content .button .btn3:hover:active {
+    color: #565E6CFF;
+    background: #CFD2DAFF;
+}
+/***.container_registration .content .text-box****/
+.content .text-box-input{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 20px;
+    font-size: 18px;
+}
+.content .text-box-input label {
+    font-size: 14px;
+    font-family:"inter";
+}
+.content .text-box-input input {
+    width: 100%;
+    height: 35px;
+    font-size: 16px;
+    background: #F3F4F6FF;
+    border-radius: 22px;
+    border-width: 0;
+    outline: none;
+}
+.content .formulaire input {
+    width: 384px;
+    height: 44px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.text-box .button2 button {
+    margin-top: 40px;
+    height: 40px;
+    width: 100%;
+    border-radius: 26px;
+    box-shadow: 0 8px 17px;
+    border: none;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFFFF;
+    background: #00BDD6FF;
+    cursor: pointer;
+}
+.text-box .button2 a {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 22px;
+    color: #00BDD6FF;
+}
+.text-box .button2 .texte {
+    font-family: "Inter";
+    font-size: 14px;
+    line-height: 40px;
+    color: #323842FF;
+}
+.text-box .button2 .texte-lien {
+    font-size: 18px;
+}
+.text-box .button2 p {
+    color: #323842FF;
+}
+/*******affiche et masquer le mot de passe******/
+.text-box .pass {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F3F4F6FF;
+    border-radius: 22px;
+}
+.text-box .pass img {
+    width: 28px;
+    height: 28px;
+    margin-right: 20px;
+}
+.text-box .text-box-input .i_input {
+    width: 100%;
+}
+
+@media screen and (max-width: 1920px) {
+    .container_registration .picture .images img {
+       width: 100%;
+    }
+    .content .text-box-input {
+        margin-top: 25px;
+    }
+    .text-box .button2 button {
+        margin-top: 45px;
+        height: 40px;
+    }
+    .content .text-box-input input {
+        height: 40px;
+    }
+}
+@media screen and (max-width: 1700px){
+    .container_registration .picture .images img {
+        width: 80%;
+    }
+    .container .content h1 {
+        font-size: 18px;
+    }
+    .container .content p {
+        font-size: 10px;
+    }
+    .content .text-box-input label {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .text-box .button2 button {
+        font-size: 14px;
+    }
+    .text-box .button2 .texte {
+        font-size: 10px;
+    }
+    .text-box .button2 .texte-lien {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 1500px) {
+    .content .text-box-input {
+        margin-top: 15px;
+    }
+    .text-box .button2 button {
+        margin-top: 32px;
+    }
+    .content .button {
+        margin-top: 8px;
+    }
+}
+@media screen and (max-width: 1115px) {
+    .container_registration .picture .images img {
+        width: 70%;
+    }
+}
+@media screen and (max-width: 992px) {
+    .container_registration .container {
+        position: relative;
+        right: 0;
+        width: 100%;
+        height: auto;
+    }
+    .container .content h1 {
+        font-size: 24px;
+    }
+    .container .content p {
+        font-size: 12px;
+    }
+    .content {
+        margin: 20px 0 20px 0;
+    }
+    .content .text-box-input label {
+        font-size: 16px;
+    }
+    .text-box .button2 button {
+        margin-top: 52px;
+    }
+    ::placeholder {
+        font-size: 16px;
+    }
+    .text-box .button2 .texte {
+        font-size: 18px;
+    }
+    .text-box .button2 .texte-lien {
+        font-size: 14px;
+    }
+    .text-box .button2 button {
+        font-size: 18px;
+    }
+    .content .text-box-input input {
+        height: 60px;
+        border-radius: 55px;
+        padding: 20px;
+    }
+    .text-box .pass {
+        border-radius: 55px;
+    }
+    .text-box .button2 button {
+        height: 60px;
+        border-radius: 55px;
+    }
+    .content .text-box-input {
+        margin-top: 30px;
+    }
+    .container_registration .picture .images {
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        right: 0;
+        left: 0;
+    }
+    .content .button button {
+        width: 60px;
+        height: 60px;
+        border-radius: 100%;
+    }
+    .container_registration .picture .images img {
+        width: 60%;
+        top: 92px;
+        left: 100px;
+    }
+    .oval img {
+        left: 20px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .container_registration .picture .images img {
+        width: 45%;
+        top: 45px;
+        left: 104px;
+    }
+    .container_registration .container {
+        top: 0;
+    }
+    .theme {
+        width: 550px;
+        height: 460px;
+    }
+    .content .button .btn {
+        width: 36px;
+        height: 36px;
+    }
+    .content .button {
+        gap: 20px;
+    }
+}
+@media screen and (max-width: 430px) {
+    .themeContainer {
+        margin-left: -370px;
+    }
+    .container_registration .picture .images img {
+        top: 28px;
+        left: 90px;
+    }
+}
+/************/
