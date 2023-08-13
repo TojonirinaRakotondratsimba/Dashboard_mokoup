@@ -2,28 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcaed6d4-69c8-40f5-982e-9626bfcffe23" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/css/calendar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/dashboard.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/footer_menu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/setting.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/sidebar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/toggle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/mot_de_passe/affiche.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/mot_de_passe/cache_icons8-hide-24.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/mot_de_passe/cacher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/mot_de_passe/icons8-eye-32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/picture/Column bar chart 11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/picture/Group 200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/picture/Image 2344.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calendar.html" beforeDir="false" afterPath="$PROJECT_DIR$/calendar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/registration.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/registration.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setting.html" beforeDir="false" afterPath="$PROJECT_DIR$/setting.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,7 +167,7 @@
       <workItem from="1691378087802" duration="3453000" />
       <workItem from="1691403082807" duration="34364000" />
       <workItem from="1691474397427" duration="21452000" />
-      <workItem from="1691509169691" duration="4997000" />
+      <workItem from="1691509169691" duration="12505000" />
     </task>
     <servers />
   </component>
