@@ -541,6 +541,9 @@ td, th {
         position: fixed;
         right: 20px;
     }
+    .btn-toggle .svg-inline--fa {
+        font-size: 30px;
+    }
     .toggle {
         position: relative;
         display: block;
