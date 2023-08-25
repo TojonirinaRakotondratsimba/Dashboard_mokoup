@@ -1,4 +1,4 @@
-/*********footer*********/
+/******footer*****/
 .tabbar_menu{
     display: none;
     background-color:#ffffff;
@@ -6,64 +6,82 @@
     bottom: 0;
     width: 95%;
 }
+
 .tabbar_menu ul{
     display: flex;
     justify-content: space-between;
     padding: 20px;
     margin: 0!important;
 }
+
 .tabbar_menu li{
     list-style: none;
 }
+
 .tabbar_menu .foot_page{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .tabbar_menu .foot_page a{
     text-decoration: none;
     color: #3b4455;
 }
+
 /**********/
 .tabbar_menu .dashboard_active .images_noire{
     display: none;
 }
+
 .tabbar_menu .dashboard_active .image_bleu{
     display: block;
 }
+
 .tabbar_menu .dashboard_active a{
     color: #00bdd6;
 }
+
 .tabbar_menu .calendar_active .images_noire{
     display: none;
 }
+
 .tabbar_menu .calendar_active .image_bleu{
     display: block;
 }
+
 .tabbar_menu .calendar_active a{
     color: #00bdd6;
 }
+
 .tabbar_menu .setting_active .images_noire{
     display: none;
 }
+
 .tabbar_menu .setting_active .image_bleu{
     display: block;
 }
+
 .tabbar_menu .setting_active a{
     color: #00bdd6;
 }
+
 .tabbar_menu li .image_bleu{
     display: none;
 }
+
 .tabbar_menu li:hover .images_noire{
     display: none;
 }
+
 .tabbar_menu li:hover .image_bleu{
     display: block;
 }
+
 .tabbar_menu li:hover a{
     color: #00bdd6;
 }
+
 @media screen and (max-width: 992px){
     .tabbar_menu {
         display: block!important;

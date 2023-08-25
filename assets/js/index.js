@@ -2,12 +2,12 @@ e=true;
 function changer() {
     if(e) {
         document.getElementById("password").setAttribute("type","text");
-        document.getElementById("eye").src="assets/images/mot_de_passe/afficher.png";
+        document.getElementById("eye").src="assets/images/icons/eye-afficer.png";
         e=false;
     }
     else  {
         document.getElementById("password").setAttribute("type","password");
-        document.getElementById("eye").src="assets/images/mot_de_passe/masquer.png";
+        document.getElementById("eye").src="assets/images/icons/eye-masquer.png";
         e=true;
     }
 }

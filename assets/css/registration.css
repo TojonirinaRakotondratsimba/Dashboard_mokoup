@@ -2,14 +2,17 @@ body{
     margin: 0;
     background: #BDA3EFFF;
 }
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 button{
     cursor: pointer;
 }
+
 @font-face {
     font-family: 'Epilogue';
     src: url("../font-family/epilogue/static/Epilogue-Bold.ttf"),
@@ -22,11 +25,13 @@ button{
     font-family: 'Inter';
     src: url("../font-family/inter/static/Inter-SemiBold.ttf");
 }
+
 /* ********** */
 .logo {
     position: absolute;
     top: -50px;
 }
+
 .logo img {
     width: 150px;
     bottom: 0;
@@ -35,21 +40,25 @@ button{
     position: absolute;
     z-index: 1;
 }
+
 .registration {
     height: 100vh;
 }
+
 .images{
     width: 600px;
     position: absolute;
     left: 90px;
     bottom: 0;
 }
+
 .images img{
     width: 500px;
     position: relative;
     top: 4px;
     z-index: 1;
 }
+
 .registration .container {
     position: absolute;
     right: 90px;
@@ -70,22 +79,26 @@ button{
     text-align: center;
     width: 100%;
 }
+
 .content .button img {
     width: 16px;
     height: 16px;
 }
+
 .container .content h1 {
     font-family: "Inter";
     font-size: 20px;
     line-height: 36px;
     margin-bottom: -10px;
 }
+
 .container .content p{
     font-family: "inter";
     font-size: 12px;
     line-height: 30px;
     color: #9095A0FF;
 }
+
 .content .button {
     display: flex;
     align-items: center;
@@ -93,10 +106,12 @@ button{
     margin-top: 28px;
     gap: 8px;
 }
+
 .content .button .btn a {
     display: flex;
     justify-content: center;
 }
+
 .content .button .btn {
     display: flex;
     justify-content: center;
@@ -106,22 +121,28 @@ button{
     border-radius: 18px;
     border: none;
 }
+
 .btn1 {
     background: #FEF1F1FF;
 }
+
 .btn1:hover {
     background-color: #565E6CFF;
 }
+
 .btn2{
     background: #F3F6FBFF;
 }
+
 .btn2:hover {
     color: #335CA6FF;
     background: #D9E2F3FF;
 }
+
 .btn3{
     background: #F3F4F6FF;
 }
+
 .btn3:hover {
     color: #565E6CFF;
     background: #DEE1E6FF;
@@ -148,6 +169,7 @@ button{
     border-radius: 22px;
     border-width: 0;
     outline: none;
+    padding: 20px;
 }
 
 .content .formulaire input {
@@ -220,6 +242,7 @@ button{
     height: 100vh;
     overflow: hidden;
 }
+
 .ovals .oval1 {
     position: absolute;
     top: -77px;
@@ -229,6 +252,7 @@ button{
     background: #8353E24D;
     border-radius: 50%;
 }
+
 .ovals .oval2 {
     position: relative;
     top: -208px;
@@ -238,6 +262,7 @@ button{
     background: #8353E24D;
     border-radius: 50%;
 }
+
 .ovals .oval3 {
     position: fixed;
     right: 0;
@@ -344,7 +369,7 @@ button{
     .content .text-box-input input {
         height: 60px;
         border-radius: 55px;
-        padding: 20px;
+       
     }
     .text-box .pass {
         border-radius: 55px;
@@ -391,6 +416,7 @@ button{
         position: relative;
     }
 }
+
 @media screen and (max-width: 576px) {
     .images img {
         width: 45%;
@@ -413,6 +439,7 @@ button{
         gap: 20px;
     }
 }
+
 @media screen and (max-width: 430px) {
     .themeContainer {
         margin-left: -370px;
@@ -422,4 +449,5 @@ button{
         left: 90px;
     }
 }
+
 /************/
